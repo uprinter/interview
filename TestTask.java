@@ -1,9 +1,7 @@
-package test;
-
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import static java.util.Arrays.asList;
 
 public class TestTask {
     public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class TestTask {
         // descending order
 
         // Example
-        List<Book> books = asList(
+        List<Book> books = Arrays.asList(
                 new Book(new Author("John", "Deer"), "Blue book", 13.50),
                 new Book(new Author("David", "Cameron"), "Black book", 3.30),
                 new Book(new Author("John", "Davidson"), "Red book", 27.50)
